@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             BufferedReader reader = new BufferedReader(
-                new FileReader("src/resources/exemplo2.hs", StandardCharsets.UTF_8));
+                new FileReader("src/resources/exemplo2.hs", StandardCharsets.UTF_8));//Para testar os dois exemplos, altere a numeração do arquivo.
             StringBuilder conteudo = new StringBuilder();
             String linha;
             
